@@ -21,14 +21,14 @@ class _HomescreenState extends State<Homescreen> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "BMI Calculator for Navya",
+      title: "BMI Calculator",
       theme: ThemeData(
         primarySwatch: Colors.yellow,
       ),
       home: Scaffold(
         appBar: AppBar(
           title: Text(
-            "BMI Calculator for Navya",
+            "BMI Calculator",
             style: TextStyle(color: accentColor),
           ),
           backgroundColor: Colors.transparent,
